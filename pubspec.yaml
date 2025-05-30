@@ -1,0 +1,33 @@
+name: midterm
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to pub.dev
+publish_to: 'none' 
+
+# The version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Declare your image assets here
+  assets:
+    - Assets/Chicken_Stir_Fry.jpg
+    - Assets/Greek_Salad.jpg
+    - Assets/pancakes.jpg
+    - Assets/Spaghetti.jpg
+    - Assets/logo.jpg
+    - Assets/profile_picture.jpg
